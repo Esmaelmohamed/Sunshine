@@ -1,0 +1,22 @@
+{% extends "layout.html" %} 
+
+
+
+{% block content%}
+
+<div class="login__container"> 
+<div class="logo-register">
+    <img src="/static/images/ic_logo.png"" alt="">
+</div>
+<form action="/login" class="login__form" method="POST"> 
+    <input type="text" name="username" placeholder="please Enter username">
+    <input type="password" name="username" placeholder="please Enter password">
+    <input type="password" name="confirm" placeholder="please Enter password">
+
+    <button type="submit">  
+        Register
+    </button>
+</form>
+</div>
+
+{% endblock %}
